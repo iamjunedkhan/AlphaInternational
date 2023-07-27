@@ -1,6 +1,9 @@
 import React from 'react'
 
 const ContactUs = () => {
+    const focusInput = (e)=>{
+        e.target.previousSibling.focus();
+    }
     return (
         <div className='mt-16 mb-24'>
             <h1 className='text-4xl font-semibold text-center my-16'>Contact Us</h1>
@@ -12,31 +15,31 @@ const ContactUs = () => {
                     <form >
                         <div className='flex sm:flex-row flex-col sm:m-5'>
                             <div className='inputbox flex-1 '>
-                                <input type="text" required="required" />
-                                <span>First Name</span>
+                                <input type="text" required="required" className='cursor-pointer' />
+                                <span className='cursor-pointer' onClick={(event)=>focusInput(event)}>First Name</span>
                             </div>
                             <div className='inputbox flex-1'>
-                                <input type="text" required="required" />
-                                <span>Last Name</span>
+                                <input type="text" required="required" className='cursor-pointer' />
+                                <span className='cursor-pointer' onClick={(event)=>focusInput(event)} >Last Name</span>
                             </div>
                         </div>
                         <div className='sm:m-5'>
                             <div className='inputbox'>
-                                <input type="text" required="required" />
-                                <span>Mobile Phone</span>
+                                <input type="text" required="required" className='cursor-pointer' />
+                                <span className='cursor-pointer' onClick={(event)=>focusInput(event)} >Mobile Phone</span>
                             </div>
                         </div>
                         <div className='sm:m-5'>
                             <div className='inputbox'>
-                                <input type="text" required="required" />
-                                <span>Class</span>
+                                <input type="text" required="required" className='cursor-pointer' />
+                                <span className='cursor-pointer' onClick={(event)=>focusInput(event)} >Class</span>
                             </div>
 
                         </div>
                         <div className='sm:m-5'>
                             <div className='inputbox'>
-                                <input type="text" required="required" />
-                                <span>Message</span>
+                                <input type="text" required="required" className='cursor-pointer' />
+                                <span className='cursor-pointer' onClick={(event)=>focusInput(event)}>Message</span>
                             </div>
                         </div>
 

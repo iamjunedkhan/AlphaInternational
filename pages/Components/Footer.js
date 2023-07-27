@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from './Images/logo.png'
-import { FiYoutube, FiMail } from "react-icons/fi";
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { FiYoutube, FiMail,FiTwitter } from "react-icons/fi";
+// import { AiFillTwitterCircle } from "react-icons/ai";
 import { MdOutlinePermPhoneMsg } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { ImLocation2 } from "react-icons/im";
-import { CiFacebook } from "react-icons/ci";
+import { PiFacebookLogoBold } from "react-icons/pi";
 const Footer = () => {
   return (
     <div className='bg-yellow-300/80 border-2 space-y-4 flex-col  sm:flex-row  px-12 sm:px-40  flex justify-between py-12'>
@@ -21,9 +21,11 @@ const Footer = () => {
           </div>
           <div className='flex space-x-4 text-2xl my-2' >
             <FiYoutube />
-            <AiFillTwitterCircle />
+            {/* <AiFillTwitterCircle /> */}
+            <FiTwitter />
             <BsInstagram />
-            <CiFacebook />
+            {/* <CiFacebook /> */}
+            <PiFacebookLogoBold />
           </div>
         </div>
       </div>
