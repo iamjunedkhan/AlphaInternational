@@ -25,8 +25,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`flex flex-col justify-center overflow-hidden transition-all duration-300  ${showNavbar?'h-[250px]':'h-0'}`}>
-        <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a className='hover:underline underline-offset-4'>Home</a></span>
-        <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a className='hover:underline underline-offset-4'>About</a></span>
+        <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a href='/' className='hover:underline underline-offset-4'>Home</a></span>
+        <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a href='/about' className='hover:underline underline-offset-4'>About</a></span>
         <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a className='hover:underline underline-offset-4'>Admission</a></span>
         <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a className='hover:underline underline-offset-4'>Parents</a></span>
         <span className='px-8 m-2 text-xl  hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 '><a className='hover:underline underline-offset-4'>More</a></span>
