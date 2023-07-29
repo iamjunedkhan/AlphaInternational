@@ -13,11 +13,11 @@ const Navbar = () => {
           <img src={logo.src} className="w-28" />
         </div>
         <div className='hidden sm:block'>
-          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a className='hover:underline underline-offset-4'>Home</a></span>
-          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a className='hover:underline underline-offset-4'>About</a></span>
-          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a className='hover:underline underline-offset-4'>Admission</a></span>
-          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a className='hover:underline underline-offset-4'>Parents</a></span>
-          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a className='hover:underline underline-offset-4'>More</a></span>
+          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a  href='/' className='hover:underline underline-offset-4'>Home</a></span>
+          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a  href='/about' className='hover:underline underline-offset-4'>About</a></span>
+          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a  href='/' className='hover:underline underline-offset-4'>Admission</a></span>
+          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a  href='/' className='hover:underline underline-offset-4'>Parents</a></span>
+          <span className='px-8 text-xl hover:scale-105 hover:text-red-800 hover:font-semibold  cursor-pointer transition-all duration-150 relative   '><a  href='/' className='hover:underline underline-offset-4'>More</a></span>
         </div>
         <div className='text-3xl sm:hidden block ' >
          {showNavbar?<GrFormClose onClick={()=>setShowNavbar(false)} className={`  transition-all duration-200  `}  />:<GiHamburgerMenu onClick={()=>setShowNavbar(true)} className={` transition-all duration-200 `} /> }
