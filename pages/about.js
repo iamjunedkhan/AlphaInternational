@@ -31,7 +31,7 @@ const About = () => {
           <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
           <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
           <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
-          <TeacherCard className="" name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
+          <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
         </div>
       </div>
       <ContactUs />
