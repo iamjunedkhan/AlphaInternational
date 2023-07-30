@@ -10,8 +10,8 @@ const About = () => {
     <div>
       <Navbar />
       <div className='my-12' >
-      <h1 className='text-5xl font-semibold text-center '>Know About Us</h1>
-        <div className="director flex-col-reverse flex sm:flex-row   items-center px-4 sm:px-28 py-12">
+      <h1 className='sm:text-5xl text-4xl font-semibold text-center '>Know About Us</h1>
+        <div className="director flex-col-reverse flex sm:flex-row items-center px-4 sm:px-28 py-12">
           <div className='flex-1 py-4 '>
             <h1 className='text-4xl font-bold text-center sm:text-left'>Sarfraz Sir</h1>
             <p className='text-xl font-semibold text-center sm:text-left'>Director <span className='text-sm text-gray-500'>MSC(Maths)</span> </p>
@@ -25,9 +25,9 @@ const About = () => {
           </div>
         </div>
 
-        <h1 className='text-5xl font-semibold text-center '>Meet Our Teacher</h1>
+        <h1 className='sm:text-5xl font-semibold text-center text-3xl '>Meet Our Teacher</h1>
 
-        <div className='sm:grid sm:grid-cols-2 px-28 place-content-center'>
+        <div className='sm:grid sm:grid-cols-2 sm:px-28 place-content-center'>
           <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
           <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
           <TeacherCard name={'Sofiya Ansari Mam '} qualification={'M.Sc Chemistry'} img={director} />
