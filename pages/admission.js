@@ -33,9 +33,9 @@ const Admission = () => {
       <div>
         <h1 className='text-4xl text-center font-semibold my-16'>Our Standard Curriculum</h1>
         <div className='flex px-32 flex-col items-center md:flex-row justify-between   mx-auto ' >
-          <Curriculum title={"Primary School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img={c1}  />        
-          <Curriculum title={"Secondary School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img={c2} />        
-          <Curriculum title={"High School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img={c3} />        
+          <Curriculum title={"Primary School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img="c1"  />        
+          <Curriculum title={"Secondary School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img="c2" />        
+          <Curriculum title={"High School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img="c3" />        
         </div>
       </div>
       <ContactUs />
