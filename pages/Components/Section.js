@@ -5,9 +5,9 @@ import { ImBooks } from "react-icons/im";
 
 const Section = () => {
     return (
-        <div className='my-24 flex px-28  items-center '>
-            <div className='w-1/2'>
-                <h1 className='text-5xl font-semibold text-center '>Why our Schools are best fit for your Child?</h1>
+        <div className='my-24 flex px-12 md:px-28 flex-col-reverse md:flex-row items-center '>
+            <div className='md:w-1/2 w-full'>
+                <h1 className=' text-4xl mt-8 md:text-5xl font-semibold text-center '>Why our Schools are best fit for your Child?</h1>
                 <p className='mx-12 mt-4 text-center text-xl text-gray-500'>Our school is the best choice for your child because we 
                 prioritize academic excellence, personalized attention, and a supportive environment for their overall growth and success.</p>
                 <div >

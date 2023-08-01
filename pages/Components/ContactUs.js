@@ -1,4 +1,5 @@
 import React from 'react'
+import locatinomap from './Images/locatinomap.png';
 
 const ContactUs = () => {
     const focusInput = (e)=>{
@@ -50,8 +51,10 @@ const ContactUs = () => {
                 </div >
                 </div>
                 {/* left side  */}
-                <div className='flex-1 hidden sm:block'>
-                    {/* <h1>lef tside </h1>  */}
+                <div className='flex-1 relative sm:block mt-24'>
+                    <div className='shadowFixed__c  w-4/5 overflow-hidden mx-auto md:absolute md:top-1/2 md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2'>
+                        <img src={locatinomap.src} alt="" />
+                    </div>
                 </div>
 
             </div>
