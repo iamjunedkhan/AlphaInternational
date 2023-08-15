@@ -17,6 +17,9 @@ module.exports = {
       },
       height:{
         '1p':'2px'
+      },
+      scale: {
+        '200': '2',
       }
     },
   },

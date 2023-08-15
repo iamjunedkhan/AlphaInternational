@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import heroright from "./Images/heroright.png";
 import heroleft from "./Images/heroleft.png";
 const Hero = () => {
@@ -9,7 +10,8 @@ const Hero = () => {
                     <img src={heroleft.src} />
                 </div>
                 <div>
-                    <button className='btn-grad'>Learn More</button>
+                    {/* <button className='btn-grad'>Learn More</button> */}
+                    <Link href="/about" className='btn-grad w-fit'  >Learn More</Link>
                 </div>
 
             </div>
