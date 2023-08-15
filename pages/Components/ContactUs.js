@@ -5,10 +5,15 @@ const ContactUs = () => {
     const focusInput = (e)=>{
         e.target.previousSibling.focus();
     }
+    const forwardToMap =()=>{
+        // alpha tutorial Link : 'https://goo.gl/maps/rr3KZPdKF9AhpeUdA'
+        let URL ='https://goo.gl/maps/rr3KZPdKF9AhpeUdA';
+        window.open(URL, '_blank');
+    }
     return (
         <div className='mt-16 mb-24'>
-            <h1 className='text-4xl font-semibold text-center my-16'>Contact Us</h1>
-            <div className='flex justify-center flex-col md:flex-row'>
+            <h1 className='text-4xl md:text-5xl font-semibold text-center my-16'>Contact Us</h1>
+            <div className='flex justify-center  flex-col md:flex-row md:items-center'>
                 {/* right side  */}
                 <div className='flex-1  flex justify-center'>
                 <div className='w-4/5 p-4  contactus border-2 border-black rounded-lg '>
@@ -51,8 +56,8 @@ const ContactUs = () => {
                 </div >
                 </div>
                 {/* left side  */}
-                <div className='flex-1 relative sm:block mt-24'>
-                    <div className='shadowFixed__c  w-4/5 overflow-hidden mx-auto md:absolute md:top-1/2 md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2'>
+                <div className='flex-1 relative sm:block  mt-24 md:mt-0'>
+                    <div className='shadowFixed__c  w-4/5 overflow-hidden mx-auto md:absolute md:top-1/2 md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2' onClick={()=>forwardToMap()}>
                         <img src={locatinomap.src} alt="" />
                     </div>
                 </div>

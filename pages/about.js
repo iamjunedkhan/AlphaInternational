@@ -15,7 +15,8 @@ const About = () => {
           <div className='flex-1 py-4 '>
             <h1 className='text-4xl font-bold text-center sm:text-left'>Sarfraz Sir</h1>
             <p className='text-xl font-semibold text-center sm:text-left'>Director <span className='text-sm text-gray-500'>MSC(Maths)</span> </p>
-            <div className='w-3/4 mx-auto sm:mx-0 mt-2 text-center sm:text-left'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur fuga cupiditate, eius expedita quia in maxime officiis blanditiis voluptates repellat saepe accusantium nisi quod recusandae aliquid distinctio omnis voluptate quaerat!
+            <div className='w-3/4 mx-auto sm:mx-0 mt-2 text-center sm:text-left'> 
+            Bringing a Master of Science degree in Mathematics, Sarfraz Sir leads Alpha International pSchool with visionary expertise. Their passion for mathematics fuels engaging teaching, while their student-centered approach and collaborative spirit create an inclusive educational community. With Sarfraz Sir at the helm, students are inspired to excel academically, develop critical thinking skills, and embrace a future full of possibilities.
             </div>
           </div>
           <div className='flex-1  border-yellow-300  '>

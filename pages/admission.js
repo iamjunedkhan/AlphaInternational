@@ -33,9 +33,9 @@ const Admission = () => {
       <div>
         <h1 className='text-4xl text-center font-semibold my-16'>Our Standard Curriculum</h1>
         <div className='flex px-32 flex-col items-center md:flex-row justify-between   mx-auto ' >
-          <Curriculum title={"Primary School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img="c1"  />        
-          <Curriculum title={"Secondary School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img="c2" />        
-          <Curriculum title={"High School"} desc={"lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum lorem upsum "} img="c3" />        
+          <Curriculum title={"Primary School"} desc={"Welcome to our Primary School Curriculum section! At this level, we focus on providing a strong foundation for your child's education. Our curriculum combines essential subjects with holistic development to nurture young minds"} img="c1"  />        
+          <Curriculum title={"Secondary School"} desc={"Welcome to our Secondary School Curriculum section! As students progress to this level, we offer a more specialized and comprehensive approach to their education, preparing them for higher levels of learning."} img="c2" />        
+          <Curriculum title={"High School"} desc={"Welcome to our High School Curriculum section! Here, we offer an advanced and diversified curriculum that prepares students for their future endeavors, whether in higher education or the workforce."} img="c3" />        
         </div>
       </div>
       <ContactUs />

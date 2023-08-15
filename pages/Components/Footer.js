@@ -39,7 +39,7 @@ const Footer = () => {
           <FiMail /><p>AlphaInternational@gmail.com</p>
         </div>
         <div className='flex items-start text-xl space-x-2'>
-          <ImLocation2 className='mt-1' /> <p>Heen Palace, Near Ayesha<br /> Majsid, Khajrana Indore </p>
+          <ImLocation2 className='mt-1' /> <p>53, Heena Palace,<br />Khajrana Indore </p>
         </div>
         <div className='flex items-center text-xl space-x-2' >
           <p>452001</p>
