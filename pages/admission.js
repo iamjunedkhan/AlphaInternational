@@ -18,7 +18,7 @@ const Admission = () => {
           <p className='text-4xl sm:text-5xl font-semibold  '>2023</p>
           <p className='text-4xl sm:text-5xl font-semibold  '>School <br />Admission</p>
           <p className='text-lg sm:text-xl my-4'>Now Open For <span className='text-black  border-2 border-black p-2 py-1 m-1'>Registration!</span></p>
-          <p className='text-lg sm:text-xl font-semibold '>Call Now <span >+91 91234 45345</span></p>
+          <p className='text-lg sm:text-xl font-semibold '>Call Now <span >+91 91234 XXXXX</span></p>
         </div>
         <div className='absolute block sm:hidden top-0 z-10 h-96 overflow-hidden'>
           <img src={classroom2.src} className=" object-top  h-full" alt="" />
